@@ -1,4 +1,4 @@
-# File to denfine variables used by the EC2 instance module
+# File to define variables used by the EC2 instance module
 variable "instance_type" {
   type = string
   description = "Type of instance to create"
@@ -27,4 +27,5 @@ variable "tags" {
   type = map(string)
   description = "Tags to apply to the instance"
   default = null
+
 }
