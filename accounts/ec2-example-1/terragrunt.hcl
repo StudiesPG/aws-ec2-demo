@@ -14,7 +14,7 @@ locals {}
 inputs = {
   instance_type = "t2.micro"
   key_name = "my-ec2-key"
-  subnet_id = ""
+  subnet_id = "" # Manually add an existing subnet ID not managed by Terragrunt
   ami = "ec2-ami-studiespg"
   tags = {
     Name = "demo-instance"
